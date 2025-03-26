@@ -1,0 +1,73 @@
+1. Object-Oriented Programming (OOP)
+
+    Classes and Objects:
+
+        You are required to define two classes: Rectangle and Circle.
+
+        Each class represents a geometric shape with specific attributes (length, width, radius) and behavior (area calculation).
+
+    Constructors (__init__ method):
+
+        The Rectangle class constructor takes two arguments: length and width.
+
+        The Circle class constructor takes one argument: radius.
+
+    Methods:
+
+        Both classes must implement an area() method to calculate and return the area of the respective shape.
+
+    Encapsulation:
+
+        Attributes like length, width, and radius are encapsulated within the classes.
+
+2. Mathematical Concepts
+
+    Area Calculation:
+
+        For a rectangle, the area is calculated as length * width.
+
+        For a circle, the area is calculated using the formula: π * radius^2. The value of π is provided by Python's math.pi.
+
+3. Input/Output Handling
+
+    Input Parsing:
+
+        Input consists of multiple queries specifying the shape type (rectangle or circle) and its dimensions.
+
+        You need to parse these inputs correctly to construct objects of the respective classes.
+
+    Output Formatting:
+
+        The output for each query must be formatted to exactly 2 decimal places.
+
+4. Problem-Solving Skills
+
+    Decision Making:
+
+        Based on the input (rectangle or circle), you need to decide which class to instantiate.
+
+    Looping Through Queries:
+
+        You must process multiple queries sequentially, construct objects, calculate areas, and store results for output.
+
+5. Python-Specific Features
+
+    String Formatting:
+
+        Use Python's string formatting (f"{value:.2f}") to ensure the output is displayed with 2 decimal places.
+
+    Math Module:
+
+        Use the math.pi constant from Python's built-in math module for precise calculations involving π.
+
+Summary of Topics Covered:
+
+    Object-Oriented Programming (Classes, Objects, Constructors, Methods)
+
+    Mathematical Calculations (Area formulas for rectangle and circle)
+
+    Input/Output Handling (Parsing input, formatting output)
+
+    Problem-Solving Techniques (Decision making, loops)
+
+    Python Features (String formatting, math module)
